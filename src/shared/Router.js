@@ -6,7 +6,7 @@ import Detail from '../pages/Detail';
 const Router = () => {
     
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path='/' element={<TodoList/>}></Route>
                 <Route path='/detail' element={<Detail/>}>
