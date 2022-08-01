@@ -78,6 +78,7 @@ const DetailCont = styled.div`
         color: var(--font-color-3);
         font-size: 1.2em;
         word-break: break-all;
+        line-height: 1.3em;
     }
     
 `
